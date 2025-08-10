@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; }
+
+body {
+  @apply bg-white text-neutral-900 antialiased;
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(255,215,194,0.35), transparent 60%),
+    radial-gradient(900px 500px at -10% 20%, rgba(247,199,212,0.4), transparent 60%),
+    radial-gradient(700px 400px at 110% 90%, rgba(250,190,168,0.35), transparent 60%);
+}
+
+.max-w-screen-content { max-width: 1120px; }
+.shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,0.06); }
